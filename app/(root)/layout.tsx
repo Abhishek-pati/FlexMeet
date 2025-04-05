@@ -2,7 +2,7 @@ import StreamVideoProvider from '@/providers/StreamClientProvider'
 import { Metadata } from 'next';
 import React, {ReactNode } from 'react'
 export const metadata: Metadata = {
-  title: "VideoStreamingApp",
+  title: "Flex-Meet",
   description: "A video caling Platform",
   icons:{
     icon:'/icons/logo.svg'

@@ -3,7 +3,7 @@ import Sidebar from "@/components/Sidebar";
 import { Metadata } from "next";
 import { ReactNode } from "react";
 export const metadata: Metadata = {
-  title: "VideoStreamingApp",
+  title: "Flex-Meet",
   description: "A video caling Platform",
   icons:{
     icon:'/icons/logo.svg'

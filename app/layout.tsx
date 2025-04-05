@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "VideoStreamingApp",
+  title: "Flex-Meet",
   description: "A video caling Platform",
   icons:{
     icon:'/icons/logo.svg'
