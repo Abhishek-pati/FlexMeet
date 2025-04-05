@@ -1,6 +1,6 @@
 import StreamVideoProvider from '@/providers/StreamClientProvider'
 import { Metadata } from 'next';
-import React, { Children, ReactNode } from 'react'
+import React, {ReactNode } from 'react'
 export const metadata: Metadata = {
   title: "VideoStreamingApp",
   description: "A video caling Platform",

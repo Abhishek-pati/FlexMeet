@@ -11,7 +11,7 @@ import { useParams } from "next/navigation";
 
 const Meeting = () => {
   const { id } = useParams<{ id: string }>(); // ✅ Use useParams() to get the dynamic route param
-  const { user, isLoaded } = useUser();
+  const { isLoaded } = useUser();
   const [isSetupComplete, setIsSetupComplete] = useState(false);
   const { call, isCallLoading } = useGetCallById(id);
 
